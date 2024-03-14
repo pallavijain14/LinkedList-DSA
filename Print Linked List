@@ -1,0 +1,9 @@
+public class Solution {
+    public void solve(ListNode A) {
+        while(A != null){
+            System.out.print(A.val + " ");
+            A = A.next;
+        }
+        System.out.print("\n");
+    }
+}

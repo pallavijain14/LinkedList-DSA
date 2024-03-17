@@ -1,0 +1,11 @@
+public class Solution {
+    public int solve(ListNode A, int B) {
+        while(A != null){
+            if(A.val == B){
+                return 1;
+            }
+            A = A.next;
+        }
+        return 0;
+    }
+}

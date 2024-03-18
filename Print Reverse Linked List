@@ -1,0 +1,13 @@
+public class Solution {
+    public void printLL(ListNode A){
+        if(A == null){
+            return;
+        }
+        printLL(A.next);
+        System.out.print(A.val + " ");
+    }
+    public void solve(ListNode A) {
+        printLL(A);
+        System.out.print("\n");
+    }
+}
